@@ -1,0 +1,4 @@
+include ':sample-mobile', ':sample-wear', ':library', ':sample-common'
+project(':sample-mobile').projectDir=new File("sample/mobile")
+project(':sample-wear').projectDir=new File("sample/wear")
+project(':sample-common').projectDir=new File("sample/common")
