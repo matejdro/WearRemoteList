@@ -18,7 +18,7 @@ import com.matejdro.wearremotelist.receiverside.RemoteListManager;
 import java.nio.ByteBuffer;
 
 /**
- * Class that connects to the provider via {@link com.google.android.gms.wearable.MessageApi Google Play Services's MessageApi}.
+ * Class that connects to the provider via Google Play Services's MessageApi.
  */
 public abstract class PlayServicesConnectionToProvider implements ConnectionToProvider, MessageApi.MessageListener
 {

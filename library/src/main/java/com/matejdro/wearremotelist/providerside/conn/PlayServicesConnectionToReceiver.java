@@ -22,7 +22,7 @@ public class PlayServicesConnectionToReceiver implements ConnectionToReceiver, M
     /**
      * @param googleApiClient Connected GoogleApiClient with Wearable API enabled.
      * @param registerListener If {@code true}, this class will automatically register itself as message listener onto provided GoogleApiClient.
-     *                         If {@code false}, you must manually call {@link #onMessageReceived(MessageEvent)} when new messages arrive.
+     *                         If {@code false}, you must manually call onMessageReceived() when new messages arrive.
      */
 
     public PlayServicesConnectionToReceiver(GoogleApiClient googleApiClient, boolean registerListener)
