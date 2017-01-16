@@ -145,10 +145,10 @@ public class MainActivity extends Activity implements RemoteListListener, Google
         @Override
         public int getItemCount()
         {
-            if (imageList == null)
+            if (imageList == null || textList == null)
                 return 0;
 
-            return imageList.size();
+            return Math.min(textList.size(), imageList.size());
         }
     }
 
